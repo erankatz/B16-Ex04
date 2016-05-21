@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "B16 Ex04 EranKatz 200864858 ItsikRafael 035869908", "B16 Ex04 EranKatz 200864858 ItsikRafael 035869908\B16 Ex04 EranKatz 200864858 ItsikRafael 035869908.shproj", "{9285670F-B515-4017-AE97-DC1B740AC407}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		B16 Ex04 EranKatz 200864858 ItsikRafael 035869908\B16 Ex04 EranKatz 200864858 ItsikRafael 035869908.projitems*{9285670f-b515-4017-ae97-dc1b740ac407}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
