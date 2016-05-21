@@ -8,8 +8,8 @@ namespace Ex04.Menus.Interface
 {
     public class SubMenu : MenuItem
     {
-        protected MenuItemList menu;
-        public SubMenu(string name, MenuItemList menu) : base(name) { this.menu = menu; }
-        public override void DoAction() { menu.Run(); }
+        protected MenuItemList m_menu;
+        public SubMenu(string i_name, MenuItemList i_menu) : base(i_name) { m_menu = i_menu; }
+        public override void DoAction() { m_menu.Run(); }
     }
 }
