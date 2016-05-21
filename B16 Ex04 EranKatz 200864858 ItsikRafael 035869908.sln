@@ -3,11 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "B16 Ex04 EranKatz 200864858 ItsikRafael 035869908", "B16 Ex04 EranKatz 200864858 ItsikRafael 035869908\B16 Ex04 EranKatz 200864858 ItsikRafael 035869908.shproj", "{9285670F-B515-4017-AE97-DC1B740AC407}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.Menus.Delegates", "Ex04.Menus.Delegates\Ex04.Menus.Delegates.csproj", "{1F3D33F4-1B04-4C2F-BDBC-526ED9D6D0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.Menus.Interface", "Ex04.Menus.Interface\Ex04.Menus.Interface.csproj", "{60E6CE91-95E4-4DC8-9CCA-2E76CA9A7ED5}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		B16 Ex04 EranKatz 200864858 ItsikRafael 035869908\B16 Ex04 EranKatz 200864858 ItsikRafael 035869908.projitems*{9285670f-b515-4017-ae97-dc1b740ac407}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3D33F4-1B04-4C2F-BDBC-526ED9D6D0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3D33F4-1B04-4C2F-BDBC-526ED9D6D0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3D33F4-1B04-4C2F-BDBC-526ED9D6D0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3D33F4-1B04-4C2F-BDBC-526ED9D6D0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E6CE91-95E4-4DC8-9CCA-2E76CA9A7ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E6CE91-95E4-4DC8-9CCA-2E76CA9A7ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E6CE91-95E4-4DC8-9CCA-2E76CA9A7ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E6CE91-95E4-4DC8-9CCA-2E76CA9A7ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
