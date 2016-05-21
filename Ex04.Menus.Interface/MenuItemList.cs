@@ -49,7 +49,7 @@ namespace Ex04.Menus.Interface
             while (item == null)
             {
                 int choice = -1;
-                try { choice = Int32.Parse(Console.ReadLine()); } catch { }
+                try { choice = Int32.Parse(Console.ReadLine()); } catch { System.Console.WriteLine("Must Enter a number of the choice");  }
                 if (choice == 0) { break; }
                 choice--;
                 if (choice < 0 || choice >= m_menuItems.Count)
@@ -66,13 +66,13 @@ namespace Ex04.Menus.Interface
 
         public void Run()
         {
-            while (true)
+            MenuItem item = null;
+            do
             {
                 Show();
-                MenuItem item = SelectItem();
-                if (item == null) { break; }
-                item.DoAction();
-            }
+                item = SelectItem();
+                if (item != null) { item.DoAction(); }               
+            } while (item != null);
         }
     }
 }

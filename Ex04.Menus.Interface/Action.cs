@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex04.Menus.Interface
 {
-    public interface Action
+    public interface IAction
     {
         void DoAction();
     }
